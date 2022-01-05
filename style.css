@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2? family= Dancing+Script & family= The+Nautigal & display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "The Nautigal", cursive;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0%;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px;
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* **************************NAVBAR******************** */
+nav {
+  overflow: hidden;
+  background-color: rgba(207, 146, 102, 0.753);
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+header li {
+  float: right;
+  font-size: 1.3em;
+}
+header li a {
+  text-decoration: none;
+  color: #fffae1;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+#logo {
+  font-family: "Dancing Script", cursif;
+  font-weight: bold;
+  float: left;
+}
+/* ******************************Image principal*******************/
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(media/imgfond.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 500px;
+}
+h1 {
+  font-family: "dancing script", cursif;
+  text-align: center;
+  color: rgba(235, 225, 208, 0.808);
+  font-size: 6em;
+  margin-top: 120px;
+  text-shadow: 20px 6px 2px black;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff;
+}
+#premierTrait {
+  height: 2px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: #fffae1;
+  box-shadow: 10px 6px 2px black;
+}
+h3 {
+  font-family: "dancing script", cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 3em;
+  text-shadow: 3px 1px 2px rgb(0, 0, 0);
+}
+/* ********************************presentation******************* */
+#presentation {
+  background-color: rgba(207, 146, 102, 0.753);
+  padding: 10px 0px 100px 0px;
+}
+#textIntro {
+  padding: 0px 20%;
+  color: #fffae1;
+}
+#decouverte {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+.imagesdécouverte h4 {
+  font-family: "Dancing scipt", cursive;
+  text-align: center;
+  color: #3d2c07ee;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.imagesdécouverte img {
+  border-radius: 70px;
+  box-shadow: 5px 8px 6px 6px #1f1603ee;
+}
+.imagesdécouverte img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+/* **************************Villes******************************* */
+#tourisme {
+  height: 990px;
+  background-color: rgb(255, 253, 250);
+  padding: 1px 2%;
+}
+#tourisme h2 {
+  padding-top: 60px;
+  background-color: burlywood;
+  padding: 10px 10px 10px 10px;
+  color: #fffae1;
+}
+#chefchaouen {
+  background: url(media/chefchaouen.jpg);
+  border-radius: 50%;
+}
+#marrakech {
+  background: url(media/Marrakech.jpg);
+  border-radius: 50%;
+}
+#tanger {
+  background: url(media/tanger.jpg);
+  border-radius: 50%;
+}
+#hoceima {
+  background: url(media/hoceima.jpg);
+  border-radius: 50%;
+}
+#tourisme li {
+  margin: 65px 100px 0px 100px;
+  height: 226px;
+  width: 55%;
+  max-width: 550px;
+  float: left;
+  box-shadow: 10px 20px 20px -1px rgba(207, 146, 102, 0.897);
+}
+#tourisme p {
+  height: 45px;
+  width: 235px;
+  background-color: sienna;
+  float: right;
+  margin: 50px -100px 0 0;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 15px;
+  box-shadow: 7px 5px 0 1px rgba(207, 146, 102, 0.753);
+  border-radius: 10%;
+}
+#chefchaouen p,
+#tanger p {
+  float: left;
+  background-color: #fffae1s;
+  margin-left: -100px;
+  box-shadow: -7px 5px 0 1px rgba(207, 146, 102, 0.753);
+}
+/* ******************************footer*************************** */
+footer {
+  background-color: rgb(75, 46, 33);
+  color: #fffae1;
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+input,
+textarea,
+button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  border-radius: 8px;
+}
+textarea {
+  height: 120px;
+}
+button {
+  font-size: 1.5em;
+  background-color: #fffae1;
+}
+button:hover {
+  background-color: sienna;
+  color: #fffae1;
+  cursor: pointer;
+}
+#deuxiemeTrait {
+  height: 2px;
+  width: 75%;
+  background-color: #fffae1;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: #fffae1;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+}
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font: size 1.3em;
+  color: #fffae1;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
